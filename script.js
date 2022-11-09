@@ -34,7 +34,7 @@ const decreaseButton = document.getElementById('decrease');
 addButton.addEventListener('click', () => {
   const imageElement = document.createElement('img');
   imageElement.src =
-    'https://lviv.travel/image/news/ca/48/ca488962b7ba4aced73d0b10b8a7b7afb68efc70_1584955392.jpeg?crop=937%2C627%2C2%2C0';
+    'https://thumbs.dreamstime.com/b/aerial-view-old-town-lviv-ukraine-scenic-summer-market-square-architecture-124964658.jpg';
   imageElement.alt = 'Lviv';
   imageElement.classList.add('image');
   const anchorElement = document.querySelector('a');
